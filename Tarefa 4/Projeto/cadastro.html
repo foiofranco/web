@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>ARTIGOS - Cadastro</title>
+    <meta name="description" content="Sua fonte genuína de informações."></meta>
+    <style type="text/css"> 
+        a.nounderline1:link{ 
+            text-decoration:none;
+            padding-right: 30px;
+        }
+        a.nounderline2:link{ 
+            text-decoration:none;
+        }
+    </style>
+</head>
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" link="#000000" vlink="#FF1493" alink="#0000FF">
+    <header style="background-color: orange;">
+        <h1 align="center">ARTIGOS</h1>
+    </header>
+    <div>
+        <h1>
+            <img width="100%" src="header.png" alt="Capa." align="middle"></img>
+        </h1>
+    </div>
+    <div>
+        <section style="background-color: orange;">
+            <nav align="center">
+                <ul type="none">
+                    
+                    <li style="display: inline;"><a href="index.html" class="nounderline1"><b>Início</b></a></li>
+                    <li style="display: inline;"><a href="fotos.html" class="nounderline1"><b>Fotos</a></b></li>
+                    <li style="display: inline;"><a href="cadastro.html" class="nounderline1"><b>Cadastro</b></a></li>
+                </ul>
+            </nav>
+        </section>
+    </div>
+    <div align="center">
+        <h4>Preencha o formulário abaixo:</h4>
+        <table>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend><b>Dados</b></legend>
+                        <table>
+                            <p><tr><td><label><b>Nome: </b></label></td><td><label><input name="nome"></label></td></tr></p>
+                            <p><tr><td><label><b>Endereço: </b></label></td><td><label><input name="endereco"></label></td></tr></p>
+                            <p><tr><td><label><b>Cidade: </b></label></td><td><label><input name="cidade"></label></td></tr></p>
+                            <p><tr><td><label><b>Estado: </b></label></td>
+                                <td><label>
+                                <select name="Estado">
+                                    <optgroup label="Centro-Oeste">
+                                        <option value="MT">Mato Grosso</option>
+                                        <option value="MS">Mato Grosso do Sul</option>
+                                        <option value="GO">Goiás</option>
+                                    </optgroup>
+                                    <optgroup label="Nordeste">
+                                        <option value="MA">Maranhão</option>
+                                        <option value="PI">Piauí</option>
+                                        <option value="CE">Ceará</option>
+                                        <option value="RN">Rio Grande do Norte</option>
+                                        <option value="PE">Pernambuco</option>
+                                        <option value="PB">Paraíba</option>
+                                        <option value="SE">Sergipe</option>
+                                        <option value="AL">Alagoas</option>
+                                        <option value="BA">Bahia</option>
+                                    </optgroup>
+                                    <optgroup label="Norte">
+                                        <option value="AM">Amazonas</option>
+                                        <option value="RR">Roraima</option>
+                                        <option value="AP">Amapá</option>
+                                        <option value="PA">Paraná</option>
+                                        <option value="TO">Tocantins</option>
+                                        <option value="RO">Rondônia</option>
+                                        <option value="AC">Rio Branco</option>
+                                    </optgroup>
+                                    <optgroup label="Sudeste">
+                                        <option value="SP">São Paulo</option>
+                                        <option value="RJ">Rio de Janeiro</option>
+                                        <option value="ES">Espírito Santo</option>
+                                        <option value="MG">Minas Gerais</option>
+                                    </optgroup>
+                                    <optgroup label="Sul">
+                                        <option value="PR">Paraná</option>
+                                        <option value="RS">Rio Grande do Sul</option>
+                                        <option value="SC">Santa Catarina</option>
+                                    </optgroup>
+                                </select>
+                                </label></td>
+                            </p></tr>
+                            <p><tr><td><label><b>CEP: </b></label></td><td><label><input name="cep"></label></td></tr></p>
+                            <p><tr><td><label><b>Telefone: </b></label></td><td><label><input type="tel" placeholder="(xx) xxxx-xxx" pattern="^\(?\d{2}\)\d{4}[-\s]\d{4}.*?$" name="telefone"></label></td></tr></p>
+                            <p><tr><td><label><b>Escolaridade: </b></label></td>
+                                <td><label>
+                                <select name="Escolaridade">
+                                    <option value="ensino-fundamental">Ensino Fundamental</option>
+                                    <option value="ensino-medio">Ensino Médio</option>
+                                    <option value="ensino-superior">Ensino Superior</option>
+                                    <option value="pos-graduacao">Ensino Pós-Graduação</option>
+                                </select>
+                                </label></td>
+                            </p></tr>
+                            <p><tr><td><label><b>Nascimento: </b></label></td><td><label><input type="date" name="data"></label></label></td></tr></p>
+                            <p><tr><td><label><b>E-mail: </b></label></td><td><label><input type="email"></label></label></td></tr></p>
+                            <p><tr><td><label><b>Instagram (URL): </b></label></td><td><label><input name="instagram"></label></label></td></tr></p>
+                            <tr><td><label></p></label></td><td><label><p align="right"><input type="submit" name="enviar"></label></label></td></tr>
+                            <p ><label></label></p>
+                        </table>
+                    </fieldset>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <p align="right"><a href="index.html" class="nounderline2"><b>⇽ VOLTAR</b></a></p>
+    </div>
+    <footer style="background-color: orange;">
+        <b><p align="center">Copyright 2021 - Todos os direitos reservados a João Franco.</p></b>
+    </footer>
+</body>
+</html>

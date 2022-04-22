@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário e Tabela</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+</head>
+<body bgcolor="white">
+    <div align="center">
+        <table class="formulario">
+            <thead>
+                <tr>
+                    <td colspan="2">Formulário</td>
+                </tr>
+            </thead>
+            <tbody>
+                <form name="name-ordenado">
+                    <tr>
+                        <td><label class="tipo-campo">Nome:</label></td>
+                        <td><input type="text" id="inputNome"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="Inserir" class="button" onclick="inserir()"></td>
+                        <td><input type="button" value="Remover" class="button" onclick="remover()"></td>
+                    </tr>
+                </form>
+            </tbody>
+        </table>
+        <table id="tabela" class="tabela">
+            <thead>
+                <tr>
+                    <td>Nome</td>
+                    <td>Ordenado</td>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</body>
+</html>

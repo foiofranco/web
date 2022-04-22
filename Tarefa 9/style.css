@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+body{
+    background-color: #282a36;
+}
+
+.tabela{
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 400px;
+    background-color: white;
+    text-align: center;
+}
+
+.tabela thead tr{
+    background-color: #ff79c6;
+    font-weight: bold;
+}
+
+.tabela tr, td{
+    padding: 10px 13px;
+
+}
+
+.tabela tbody tr{
+    border-bottom: 1px solid #ddd;
+}
+
+
+.formulario{
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 400px;
+    background-color: white;
+    text-align: center;
+}
+
+.formulario thead tr{
+    background-color: #ff79c6;
+    font-weight: bold;
+}
+
+.formulario tr, td{
+    padding: 10px 13px;
+
+}
+
+.formulario tbody tr{
+    border-bottom: 1px solid #ddd;
+}
+
+.tipo-campo{
+    font-weight: bold;
+}
+
+.button{
+    background-color: #ff79c6;
+    border: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 60px;
+    margin: 0 0;
+}

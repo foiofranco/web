@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+</head>
+<body>
+    <section>
+        <header align="center">
+            <h2>Cadastro</h2>
+        </header>
+    </section>
+    <hr>
+    <br>
+    <div>
+        <h4>Preencha o formulário abaixo:</h4>
+        <fieldset>
+            <legend>Dados</legend>
+            <p><label>Nome: <input name="nome"></label></p>
+            <p><label>Endereço: <input name="endereco"></label></p>
+            <p><label>Cidade: <input name="cidade"></label></p>
+            <p>Estado: 
+                <select name="Estado">
+                    <optgroup label="Centro-Oeste">
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="GO">Goiás</option>
+                    </optgroup>
+                    <optgroup label="Nordeste">
+                        <option value="MA">Maranhão</option>
+                        <option value="PI">Piauí</option>
+                        <option value="CE">Ceará</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="BA">Bahia</option>
+                    </optgroup>
+                    <optgroup label="Norte">
+                        <option value="AM">Amazonas</option>
+                        <option value="RR">Roraima</option>
+                        <option value="AP">Amapá</option>
+                        <option value="PA">Paraná</option>
+                        <option value="TO">Tocantins</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="AC">Rio Branco</option>
+                    </optgroup>
+                    <optgroup label="Sudeste">
+                        <option value="SP">São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="MG">Minas Gerais</option>
+                    </optgroup>
+                    <optgroup label="Sul">
+                        <option value="PR">Paraná</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="SC">Santa Catarina</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p><label>Data de Nascimento: <input type="date" name="data"></label></p>
+            <p><label>E-mail: <input type="email"></label></p>
+            <p>Estado Civil: 
+                <select name="Estado Civil">
+                    <option value="Solteiro">Solteiro</option>
+                    <option value="Casado">Casado</option>
+                </select>
+            </p>
+            <p><label>Telefone: <input type="tel" placeholder="(xx) xxxx-xxx" pattern="^\(?\d{2}\)\d{4}[-\s]\d{4}.*?$" name="telefone"></label></p>
+            <p>Esporte favorito:
+                <select name="Esporte">
+                    <option value="Corrida">Corrida</option>
+                    <option value="Basquete">Basquete</option>
+                    <option value="Futebol">Futebol</option>
+                    <option value="Natação">Natação</option>
+                    <option value="Tênis">Tênis</option>
+                    <option value="Tênis de Mesa">Tênis de Mesa</option>
+                </select>
+            </p>
+        </fieldset>
+        <p><label><input type="submit" name="enviar"></label></p>
+    </div>
+    <br>
+    <a href="site.html">< Voltar</a>
+    <hr>
+    <footer align="center">
+        <b><p>Copyright 2021 - Todos os direitos reservados.</p></b>
+    </footer>
+</body>
+</html>

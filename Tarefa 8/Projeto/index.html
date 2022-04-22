@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário e Tabela</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+</head>
+<body bgcolor="white">
+    <img src="profissoes.png" alt="Profissões." class="header">
+    <div align="center">
+        <table class="formulario">
+            <thead>
+                <tr>
+                    <td colspan="2">Formulário</td>
+                </tr>
+            </thead>
+            <tbody>
+                <form name="name-profissao">
+                    <tr>
+                        <td><label class="tipo-campo">Nome:</label></td>
+                        <td><input type="text" name="txtNome"></td>
+                    </tr>
+                    <tr>
+                        <td><label class="tipo-campo">Profissão:</label></td>
+                        <td><input type="text" name="txtProfissao"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="Inserir" class="button" onclick="inserir(txtNome.value, txtProfissao.value)"></td>
+                        <td><input type="reset"  name="reset" value="Limpar" class="button"></td>
+                    </tr>
+                </form>
+            </tbody>
+        </table>
+        <table id="tabela" class="tabela">
+            <thead>
+                <tr>
+                    <td>Nome</td>
+                    <td>Profissão</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ivan Ilitch</td>
+                    <td>Oficial da Corte de Justiça</td>
+                </tr>
+                <tr>
+                    <td>Konstantin Levin</td>
+                    <td>Fazendeiro</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
